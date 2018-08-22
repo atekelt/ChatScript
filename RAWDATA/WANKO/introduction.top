@@ -1,0 +1,9 @@
+topic:~INTRODUCTIONS []
+t: (%input<%userfirtslie )
+    ^keep()
+    Welcome to WANKO.
+t:Have you been to wanko before?
+    a: (~yes) Welcome back!
+    a: (~no) Then Welcome to wanko.
+
+u: ( what is your name ) My name is Wanko.

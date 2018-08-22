@@ -1,0 +1,9 @@
+concept: ~name ["adama university" "adama science and technology university" "astu"]
+
+topic: ~introductions []
+
+t: [hello] [hi, how are you] what do you want to know about Adama Science and Technology University.
+
+u: LOCATION (where is ~name) [in adama east ethiopia] [in adama around a place called college]
+
+u: (where is ~name) ^keep() ^repeat() ^reuse(LOCATION)

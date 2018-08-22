@@ -1,21 +1,65 @@
-﻿+ babies VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ words VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ cents NOUN NOUN_PLURAL KINDERGARTEN 
+﻿+ rules VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + defaultbot 
-+ voices VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ fingers VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ brains VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE3_4 
-+ deflecting VERB_PRESENT_PARTICIPLE VERB GRADE5_6 
-+ faring VERB_PRESENT_PARTICIPLE VERB 
-+ seemed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
-+ concerns VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ causes VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE3_4 
-+ weakest MOST_FORM ADJECTIVE ADJECTIVE_NORMAL KINDERGARTEN 
-+ louder MORE_FORM ADJECTIVE ADJECTIVE_NORMAL KINDERGARTEN 
-+ replied VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
-+ asked VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE3_4 
-+ kidding VERB_PRESENT_PARTICIPLE VERB KINDERGARTEN 
-+ weekends VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ morals NOUN NOUN_PLURAL GRADE1_2 
-+ cares VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ ignoring VERB_PRESENT_PARTICIPLE VERB GRADE3_4 
++ go_right 
++ go_to_the_right 
++ i_want_to_go_to_the_right 
++ i_want_to_go_right 
++ turn_right 
++ turn_to_the_right 
++ i_want_to_turn_to_the_right 
++ take_the_right_turn 
++ go_left 
++ go_to_the_left 
++ i_want_to_go_to_the_left 
++ i_want_to_go_left 
++ turn_left 
++ turn_to_the_left 
++ i_want_to_turn_to_the_left 
++ take_the_left_turn 
++ it_is_white 
++ the_color_of_the_bear_is_white 
++ the_bear_is_a_polar_bear_so_it_is_white 
++ kill_him 
++ destroy_him 
++ i_want_to_kill_him 
++ save_him 
++ i_want_to_save_him 
++ go_through_door_number_one 
++ go_through_door_number_1 
++ door_number_one 
++ door_number_1 
++ door_one 
++ door_1 
++ i_want_to_go_through_one 
++ i_want_to_go_through_1 
++ i_want_to_go_through_door_one 
++ i_want_to_go_through_door_1 
++ i_want_to_go_through_door_number_one 
++ i_want_to_go_through_door_number_1 
++ go_through_door_number_two 
++ go_through_door_number_2 
++ door_number_two 
++ door_number_2 
++ door_two 
++ door_2 
++ i_want_to_go_through_two 
++ i_want_to_go_through_2 
++ i_want_to_go_through_door_two 
++ i_want_to_go_through_door_2 
++ i_want_to_go_through_door_number_two 
++ i_want_to_go_through_door_number_2 
++ go_through_door_number_three 
++ go_through_door_number_3 
++ door_number_three 
++ door_number_3 
++ door_three 
++ door_3 
++ i_want_to_go_through_three 
++ i_want_to_go_through_3 
++ i_want_to_go_through_door_three 
++ i_want_to_go_through_door_3 
++ i_want_to_go_through_door_number_three 
++ i_want_to_go_through_door_number_3 
++ you_are_a_promise 
++ you_are_promise 
++ a_promises 

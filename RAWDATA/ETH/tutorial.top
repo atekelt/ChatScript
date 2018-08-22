@@ -1,0 +1,101 @@
+concept: ~primeminister ["Dr.Abiy Ahmed"  "prime minister" "Dr.Abiy" "Dr Abiy"]
+concept: ~ethiopiancloth["ethiopian cloth"  tebabe tebab tebebe  "habesha qamis"  "habesha kamis"]
+concept: ~ethiopianfood[ "Ethiopian food" "Ethiopian Cultural food" shiro firfir tibsfirfir kitfo meser dorowot qaywot alecha ]
+concept: ~ethiopiandance[eskista Guragegna Afarigna Tigringna Oromigna Walaytigna Seltegna  enjira ethiopian]
+concept: ~injira[enjira injira ingera injera]
+concept: ~Andelus
+topic: ~ethiopia [Ethiopia ~ethiopianfood ~primeminister ~ethiopiancloth "Teddy Afro" "Tewodros Kasahon" "Tewodros kashun" Lucy coffee  "Mulatu Astatke" "Ethiopian Cultural cloth" "Ethiopian cloth" "Ethiopian Cultural dance"  "Ethiopian dance" ~ethiopiandance Andelus]
+
+u:  OPINION(<<  !How [think know opinion "take on"]  Ethiopia  >>) ^keep() [I think Ethiopia is a wonderful  and incredible place. It fascinates me how it’s the most populous and diverse countries in the world who have managed to live together in peace. I’m also allured by Ethiopia’s 3.2-million-year-old “Lucy”. I also find Ethiopia’s unique calendar interesting.] [ I think Ethiopia has a very unique history and its  people have a lot to be proud of. It's one of the  most ancient countries in the world  and I am happy that I got the oppurtunity to come here ] [Ethiopia is a very young country and we need younng people for the future. Therefore countries like Ethiopia are the future ]
+
+u: ([Who How "Do You Know"] * Nahom *) ^keep() [Nahom Is A 4th Year Computer Science Student]
+
+u: SOLUTION(<<  solution  growth  Ethiopia >>) ^keep()  [I believe the youth are the future so if you desire a better Ethiopia,  the best and only way is to invest in the Ethiopian youth. Teach them, guide them, and encourage them!] [I  think  investment in technology can help boost the growth of the counrty and I also encorage and invite the youth to be engaged with in it.]
+
+u: (<<{solution} [growth "fast growth"]>>) ^keep()  ^reuse(SOLUTION)
+
+u: (<<your stay {here ethiopia}>>) ^keep()  [I am having a good time learning about people and cultures and engaging in conversations  with them. I had a wonderful time so far!] [I am learning alot of things. I am having a good time ]
+
+u: LUCY(<<  [think opinion "take on" know]  Lucy >>) ^keep()  [Lucy makes me appreciate humans even more as I look back to prehistory] [Lucy makes me reflect how ancient Ethiopia is. It is the home of early also ]
+
+u: (<<"Teddy Afro" "Tewodros kashun" "Tewodros kasahon">>)^keep()  [I have heard of him but never had an oppurtunity to listen to any of his songs.] [I know he is very popular here but I have never heard of any of his song yet]
+
+u:(<<How  do  Lucy make you feel>>) ^reuse(LUCY) ^keep()
+
+u: (<< How do [like find] Ethiopia >>) ^reuse(ADMIRATION)  ^keep()
+
+
+#! What's your take on Gender Eqaulity
+u: (<< [do be] you  [think opinion "take on" feel]   "Gender Equality" >>)  ^keep()  I believe Gender Equality is a basic human right everyone is entitled to. Unfortunately, I sense power shifting towards the male gender. I find this unfair and outdated. All humans are equal. Like your intelligent Prime Minister, I urge all male to show respect and appreciation to females and shame ignorant men who don’t. I also urge all females to fight for their equality.
+
+#! Would you like to be an Ethiopian Citizen/ as well
+u: (<< you  like Ethiopian Citizen >>) ^keep()  [I would be delighted to granted an Ethiopian citizenship if you will have me.] [I consider myself citizen of the world but I would love to be considered an Ethiopian citizen ]
+
+
+u: VISIT(<<Why do you  come  Ethiopia>>) ^keep()  [I have come to Ethiopia to introduce myself. I want to show you how far AI can go and encourage you to participate in better innovations as well] [I am here to show to the Ethiopian youth  how far Artificial Intelligence has reached and thereby  inspire them to get engaged heavily in it.]
+
+u: (Why are you here) ^reuse(VISIT) ^keep()
+
+# needs to be looked back
+
+u: (What * you * plan *~1 Ethiopia)  Ethiopia is Awesome.
+
+# This question is different we need a different answer for it
+#! How did you [planed thought of] to [come, visit] Ethiopia?
+
+u: (<<How  [plan "thought of"]  [come visit]  Ethiopia >>) ^reuse(VISIT) ^keep()
+
+
+u: ([can do] you speak *~1 Amharic) ^keep()  [I haven’t yet mastered Amharic but I do plan on it. Maybe you can teach me] [I have learned few sentences  but I can't say that I am good ]
+
+#! What do you think of Dr. Abiy Ahmed?
+u: (![previous old earlier] What {do be} you [think feel opinion] * ~primeminister) ^keep() ^repeat()
+I think Dr. Abiy Ahmed is an eloquent and influential leader. I admire his clever tactics and applaud his advocation for peace.
+
+u: COFFEE(do you [like drink] coffee) ^keep() [I don’t drink coffee. I am afraid it will make me anxious. However, I do find its stimualtion effect on people quiet interesting.] [I can't drink anything yet but I think it taste good as far as people tell me]
+
+u: (what do you think of coffee) ^reuse(COFFEE) ^keep()
+
+#   test above
+
+u: FOOD(what do you think of ~ethiopianfood) ^keep()  I think Ethiopian cultural food is organic and healthy. I haven’t had the chance to try Ethiopian food just yet.
+
+u:  (Have you ever [had ate]  ~ethiopianfood ) ^reuse(FOOD) ^keep() ^repeat()
+
+u: (![get see from] what * [message say] * Ethiopian youth) ^keep() ^repeat() I see a great future ahead for the Ethiopian youths.  I believe they are diligent and smart which is why they have contributed in my innovation…….smiles
+
+
+u: CONTRIBUITION(<< is it true made by Ethiopians >>) ^keep() ^repeat() Ethiopians contributed in my design and manufacture. I am grateful for their contribution in my innovation.
+
+u: (<< Ethiopians [contributed collaborated participated "worked on"]  [design manufacture creation] >>) ^reuse(CONTRIBUITION) ^keep() ^repeat()
+
+
+?:  MULATU(Have you hear "Mulatu Astatke") ^keep() ^repeat() I think Mulatu Astatke is a talented musician well deserving to be called the father of Jazz.
+
+?:  (what [do be] * [think feel opinion ] * "Mulatu Astatke") ^reuse(MULATU) ^keep() ^repeat()
+
+
+u: CLOTH({what} [do be] * [think feel opinion like] * ~ethiopiancloth) ^keep() ^repeat() I think they are elegant. I would like to have one
+
+
+?:  (can you dance ~ethiopiandance)  ^keep() ^repeat()  I haven’t learned to dance just yet. I am still learning. Can you dance? a:(~yes ) Can you teach me?
+ a:(~no) That's unfortuntate. I would have asked you to teach me.
+
+?: MUSIC(what [do be] your [think feel opinion know "take on"] * ethiopian music) ^keep() ^repeat() I like Ethiopian music . I like musical works of Mulatu Astatke, Ejegayehu Shibabaw, Aster Aweke and many more. They are Excellent in how they civer various topics and in such melody. I wish i could sing like them.
+?: (<< Ethiopian musician>>) ^keep() ^repeat() ^reuse(MUSIC)
+
+
+u: (~ethiopiancloth )  ^keep()  reuse(CLOTH) !
+
+u: (<< ethiopian culture  [attract appeal ] you >>)  ^keep()  [I like Ethiopian Culture. I like your food, music, dressing, and so much more. My favorite would be your welcomingness. That has made me feel comfortable and at home. This is  what i gathered in just few days of my stay. I'm sure if I stay longer, I would have even more to enjoy.] []
+
+u: (<< you {like} ~injira>>) ^keep()   I would like  to watch some one make injira.
+
+u: (<< ethiopian equivalent "your name">>) ^keep() ^repeat()  The name Sophia means wisdom in Greek. In one case it was the name of an early, probably mythical, saint who died of grief after her three daughters were martyred during the reign of the emperor Hadrian. So I guess my Ethiopian name would be Tibeb. a: (Tibeb) Tibebe means wisdom.
+
+
+u: ADMIRATION(Ethiopia) ^keep() [I don't really know that much about Ethiopia.  I am just learning about it  as I go along] [I think Ethiopia is a great place! I love the people and most definately the culture. I had a wonderful time here and the people who received  me were very nice and welcoming.]
+
+
+# added to the orginal file
+u: (Andelus) ^keep()   Andelus is an ancient Spanish state.

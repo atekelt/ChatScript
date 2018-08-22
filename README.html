@@ -123,31 +123,31 @@ s: ( I eat _*1 &gt; )
 <pre><code>git clone https://github.com/bwilcox-1234/ChatScript</code></pre>
 <h2 id="standalone-mode---run-locally-on-a-console-for-developementtest">Standalone mode - run locally on a console (for developement/test)</h2>
 <p>From your ChatScript home directory, go to the BINARIES directory:</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="bu">cd</span> BINARIES</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cd</span> BINARIES</code></pre></div>
 <p>And run the ChatScript engine</p>
 <h3 id="windows">Windows</h3>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">ChatScript</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">ChatScript</span></code></pre></div>
 <h3 id="linux">Linux</h3>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">./LinuxChatScript64</span> local</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">./LinuxChatScript64</span> local</code></pre></div>
 <p>Note: to set the file executable: <code>chmod a+x ./LinuxChatScript64</code></p>
 <h3 id="macos">MacOS</h3>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">./MacChatScript</span> local</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">./MacChatScript</span> local</code></pre></div>
 <p>This will cause ChatScript to load and ask you for a username. Enter whatever you want. You are then talking to the default demo bot <code>Harry</code>.</p>
 <h2 id="server-mode-for-production">Server Mode (for production)</h2>
 <p>From your ChatScript home directory, go to the BINARIES directory and run the ChatScript engine as server ### Run the server on Windows</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">ChatScript</span> port=1024</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">ChatScript</span> port=1024</code></pre></div>
 <h3 id="run-the-server-on-linux">Run the server on Linux</h3>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">./LinuxChatScript64</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">./LinuxChatScript64</span></code></pre></div>
 <h3 id="run-the-server-on-macos">Run the server on MacOS</h3>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">./MacChatScript</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">./MacChatScript</span></code></pre></div>
 <p>This will cause ChatScript to load as a server.<br />
 But you also need a client (to test client-server communication). You can run a separate command window and go to the BINARIES directory and type</p>
 <h3 id="run-a-client-test-on-windows">Run a client (test) on Windows</h3>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">ChatScript</span> client=localhost:1024 </code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">ChatScript</span> client=localhost:1024 </code></pre></div>
 <h3 id="run-a-client-test-on-linux">Run a client (test) on Linux</h3>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">./LinuxChatScript64</span> client=localhost:1024</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">./LinuxChatScript64</span> client=localhost:1024</code></pre></div>
 <h3 id="run-a-client-test-on-macos">Run a client (test) on MacOS</h3>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">./MacChatScript</span> client=localhost:1024</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">./MacChatScript</span> client=localhost:1024</code></pre></div>
 <p>This will cause ChatScript to load as a client and you can talk to the server.</p>
 <h2 id="how-to-build-a-bot">How to build a bot</h2>
 <p>Run ChatScript locally. From the ChatScript command prompt, type</p>
@@ -173,7 +173,12 @@ But you also need a client (to test client-server communication). You can run a 
 <ul>
 <li>Bruce Wilcox</li>
 <li>home website: <a href="http://www.brilligunderstanding.com">BrilligUnderstanding.com</a></li>
-<li>mail: <a href="mailto:gowilcox@gmail.com">gowilcox@gmail.com</a></li>
+<li>mail: <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x67;&#x6f;&#x77;&#x69;&#108;&#x63;&#x6f;&#120;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x67;&#x6f;&#x77;&#x69;&#108;&#x63;&#x6f;&#120;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript></li>
 </ul>
 </body>
 </html>
